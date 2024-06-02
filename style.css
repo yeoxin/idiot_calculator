@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#result {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#keypad{
+    display: flex;
+    flex-wrap: wrap;
+    width: 150px;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+#keypad span{
+    width: 50px;
+    padding: 10px;
+    text-align: center;
+    color: rgb(39, 33, 78);
+    background-color: rgb(179, 166, 255);
+}
+
+#tools button{
+    width: 50px;
+    padding: 10px;
+    color: rgb(39, 33, 78);
+    background-color: rgb(180, 142, 255);
+    border: none;
+    border-radius: 5px;
+}
